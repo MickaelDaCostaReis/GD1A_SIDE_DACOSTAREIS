@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Parallax : MonoBehaviour
 {
-    private float length, startpos;
+    private float length, startpos,starty;
     public GameObject cam;
     public float parallaxCoef;
 
     void Start()
     {
         startpos = transform.position.x;
+        starty = transform.position.y;
         length = GetComponent<SpriteRenderer>().bounds.size.x;
     }
 
@@ -19,8 +20,9 @@ public class Parallax : MonoBehaviour
     {
         float tmp = (cam.transform.position.x * (1 - parallaxCoef));
         float distance = (cam.transform.position.x * parallaxCoef);
-        // pas sûr de ça, a tester aled
-        transform.position = new Vector3(startpos + distance, transform.position.x, transform.position.z);
+        transform.position = new Vector3(startpos + distance, starty, transform.position.z);
+
+        // déplace les backgrounds pour les "répéter"
         if (tmp > startpos + length) startpos += length;
         else if(tmp< startpos-length) startpos -= length;
     }
