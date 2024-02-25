@@ -8,6 +8,8 @@ public class PlayerMovement : MonoBehaviour
     private BoxCollider2D boxCollider;
     private Rigidbody2D rb;
     private float wallJumpCd;
+    private Animator animation;
+    private bool grounded;
 
     [SerializeField] private float speed;
     [SerializeField] private float jumpingPower;
@@ -16,8 +18,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void Awake()
     {
+        grounded = true;
         rb = GetComponent<Rigidbody2D>();
         boxCollider = GetComponent<BoxCollider2D>();
+        animation = GetComponent<Animator>();
     }
 
     void Update()
@@ -25,10 +29,17 @@ public class PlayerMovement : MonoBehaviour
         // Inputs :
         horizontal = Input.GetAxis("Horizontal");
 
+        //Animations :
         Flip();
+        grounded = IsGrounded();
+        animation.SetBool("Walk",horizontal != 0);
+        animation.SetBool("Grounded",grounded);
 
-        //Jump
+        
+
+        //Jump :
         JumpConditions();
+
         
     }
 
@@ -64,10 +75,12 @@ public class PlayerMovement : MonoBehaviour
         if (IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+            grounded = false;
+
         }
         else if (IsonWall() && !IsGrounded())
         { 
-            rb.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 32, 16);
+            rb.velocity = new Vector2(-transform.localScale.x * 32, 16);
         }
     }
 
@@ -94,6 +107,7 @@ public class PlayerMovement : MonoBehaviour
 
             if (Input.GetButton("Jump"))
                 Jump();
+                  
         }
         else
         {

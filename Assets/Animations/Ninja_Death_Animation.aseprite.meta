@@ -1,0 +1,625 @@
+fileFormatVersion: 2
+guid: 6d1d00fe531200f47afbaf9feeea19b9
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Ninja_Death_Animation_Clip
+    second: {fileID: 7400000, guid: 84ab44940d739c140b951d0136f35733, type: 2}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 8
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638444792493787004
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Ninja_Death_Animation_Frame_0
+    originalName: 
+    pivot: {x: 0.62, y: 0.45}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 112
+      width: 25
+      height: 45
+    spriteID: fa0d441875687a34fad011de54e0973b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 112}
+  - name: Ninja_Death_Animation_Frame_1
+    originalName: 
+    pivot: {x: 0.62, y: 0.45}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 165
+      width: 25
+      height: 45
+    spriteID: 7949a03241d3b1341858d693eee0a506
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 165}
+  - name: Ninja_Death_Animation_Frame_2
+    originalName: 
+    pivot: {x: 0.62, y: 0.45}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 4
+      width: 25
+      height: 45
+    spriteID: 968907533424ba0438d4168112c7ef66
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 4}
+  - name: Ninja_Death_Animation_Frame_3
+    originalName: 
+    pivot: {x: 0.62, y: 0.45}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 57
+      width: 25
+      height: 45
+    spriteID: 54bb4a711f5cff044bc9e620309715fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 57}
+  - name: Ninja_Death_Animation_Frame_4
+    originalName: 
+    pivot: {x: 0.62, y: 0.45}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 163
+      width: 25
+      height: 44
+    spriteID: 02bda2d189203d94fada9690ab836842
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 163}
+  - name: Ninja_Death_Animation_Frame_5
+    originalName: 
+    pivot: {x: 0.62, y: 0.45}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 110
+      width: 25
+      height: 45
+    spriteID: 306cacf68a7baa04bbfa94d64e2de6ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 110}
+  - name: Ninja_Death_Animation_Frame_6
+    originalName: 
+    pivot: {x: 0.62, y: 0.45}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 163
+      width: 25
+      height: 45
+    spriteID: 354c76829a9697848aad27247cc55257
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 81, y: 163}
+  - name: Ninja_Death_Animation_Frame_7
+    originalName: 
+    pivot: {x: 0.62, y: 0.45}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 174
+      width: 25
+      height: 46
+    spriteID: abe93573c9d0e464180167f31ab66894
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 174}
+  - name: Ninja_Death_Animation_Frame_8
+    originalName: 
+    pivot: {x: 0.62, y: 0.45}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 4
+      width: 25
+      height: 45
+    spriteID: 454569d6f357d9a478b6c4683fc9f29d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 4}
+  - name: Ninja_Death_Animation_Frame_9
+    originalName: 
+    pivot: {x: 0.62, y: 0.45}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 4
+      width: 25
+      height: 46
+    spriteID: c33e5d4fcaaa4644a9dfa867c141c8a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 4}
+  - name: Ninja_Death_Animation_Frame_10
+    originalName: 
+    pivot: {x: 0.62, y: 0.45}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 58
+      width: 25
+      height: 46
+    spriteID: 1fe6b5974ffb4954c8152943e3e21b65
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 58}
+  - name: Ninja_Death_Animation_Frame_11
+    originalName: 
+    pivot: {x: 0.62, y: 0.45}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 57
+      width: 25
+      height: 45
+    spriteID: 4fc0d2bb6786d4445b9f5d94e6a90c5f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 57}
+  - name: Ninja_Death_Animation_Frame_12
+    originalName: 
+    pivot: {x: 0.62, y: 0.45}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 110
+      width: 25
+      height: 45
+    spriteID: 68edfd6a9876d3c48a57626597c1f6dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 110}
+  - name: Ninja_Death_Animation_Frame_13
+    originalName: 
+    pivot: {x: 0.62, y: 0.45}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 119
+      width: 25
+      height: 47
+    spriteID: 4691d35d205006543a946831d6b2ef1f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 119}
+  - name: Ninja_Death_Animation_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.45}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 62
+      width: 31
+      height: 49
+    spriteID: 768d5f135d911364db9672c4faa86cc0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 62}
+  - name: Ninja_Death_Animation_Frame_15
+    originalName: 
+    pivot: {x: 0.455, y: 0.45}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 36
+      height: 50
+    spriteID: 4576b4d6965e33f4480d79db8ff35736
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1150474986
+    name: Ninja_Death_Animation
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Ninja_Death_Animation_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 10
+        y: 14
+        width: 25
+        height: 45
+      spriteId: fa0d441875687a34fad011de54e0973b
+    - name: Ninja_Death_Animation_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 10
+        y: 14
+        width: 25
+        height: 45
+      spriteId: 7949a03241d3b1341858d693eee0a506
+    - name: Ninja_Death_Animation_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 10
+        y: 14
+        width: 25
+        height: 45
+      spriteId: 968907533424ba0438d4168112c7ef66
+    - name: Ninja_Death_Animation_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 10
+        y: 14
+        width: 25
+        height: 45
+      spriteId: 54bb4a711f5cff044bc9e620309715fc
+    - name: Ninja_Death_Animation_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 10
+        y: 14
+        width: 25
+        height: 44
+      spriteId: 02bda2d189203d94fada9690ab836842
+    - name: Ninja_Death_Animation_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 10
+        y: 14
+        width: 25
+        height: 45
+      spriteId: 306cacf68a7baa04bbfa94d64e2de6ff
+    - name: Ninja_Death_Animation_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 10
+        y: 14
+        width: 25
+        height: 45
+      spriteId: 354c76829a9697848aad27247cc55257
+    - name: Ninja_Death_Animation_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 10
+        y: 14
+        width: 25
+        height: 46
+      spriteId: abe93573c9d0e464180167f31ab66894
+    - name: Ninja_Death_Animation_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 10
+        y: 14
+        width: 25
+        height: 45
+      spriteId: 454569d6f357d9a478b6c4683fc9f29d
+    - name: Ninja_Death_Animation_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 10
+        y: 14
+        width: 25
+        height: 46
+      spriteId: c33e5d4fcaaa4644a9dfa867c141c8a7
+    - name: Ninja_Death_Animation_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 10
+        y: 14
+        width: 25
+        height: 46
+      spriteId: 1fe6b5974ffb4954c8152943e3e21b65
+    - name: Ninja_Death_Animation_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 10
+        y: 14
+        width: 25
+        height: 45
+      spriteId: 4fc0d2bb6786d4445b9f5d94e6a90c5f
+    - name: Ninja_Death_Animation_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 10
+        y: 14
+        width: 25
+        height: 45
+      spriteId: 68edfd6a9876d3c48a57626597c1f6dd
+    - name: Ninja_Death_Animation_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 10
+        y: 14
+        width: 25
+        height: 47
+      spriteId: 4691d35d205006543a946831d6b2ef1f
+    - name: Ninja_Death_Animation_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 10
+        y: 14
+        width: 31
+        height: 49
+      spriteId: 768d5f135d911364db9672c4faa86cc0
+    - name: Ninja_Death_Animation_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 9
+        y: 14
+        width: 36
+        height: 50
+      spriteId: 4576b4d6965e33f4480d79db8ff35736
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}

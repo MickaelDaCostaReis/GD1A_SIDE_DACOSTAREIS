@@ -9,7 +9,10 @@ public class Health : MonoBehaviour
     [SerializeField] private float maxhealth;
     [SerializeField] private float iframestime;
     [SerializeField] private float blinks;
+    [SerializeField] private Transform spawn;
     private SpriteRenderer blinkingSprite;
+    private Animator animation;
+
 
     public float currenthealth;
 
@@ -17,17 +20,20 @@ public class Health : MonoBehaviour
     {
         currenthealth = maxhealth;
         blinkingSprite = GetComponent<SpriteRenderer>();
+        animation = GetComponent<Animator>();
     }
     public void takeDamage(float damage)
     {
         currenthealth = Mathf.Clamp(currenthealth - damage, 0, maxhealth);
         if (currenthealth > 0)
         {
+            animation.SetTrigger("Hurt");
             StartCoroutine(Invincibility());
         }
         else
         {
-            //joueur mort
+            animation.SetBool("Grounded", true);
+            animation.SetTrigger("Death");
         }
     }
 
@@ -48,5 +54,12 @@ public class Health : MonoBehaviour
             yield return new WaitForSeconds(iframestime / (blinks * 2));
         }
         Physics2D.IgnoreLayerCollision(7, 8, false);
+    }
+    public void Die()
+    {
+        transform.position=spawn.position;
+        takeHealthpack(maxhealth);
+        animation.ResetTrigger("Death");
+        animation.Play("Idle");
     }
 }

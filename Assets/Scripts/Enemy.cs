@@ -11,8 +11,6 @@ public class Enemy : MonoBehaviour
         if (collision.tag == "Player") 
         {
             collision.GetComponent<Health>().takeDamage(damage);
-        }
-            
+        }  
     }
-
 }
