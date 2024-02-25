@@ -5,13 +5,20 @@ using UnityEngine;
 public class healthpack : MonoBehaviour
 {
     [SerializeField] private float healing;
+    private Health playerhealth;
+    
+
+    private void Start()
+    {
+        
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
-        {
+        { 
             collision.GetComponent<Health>().takeHealthpack(healing);
             gameObject.SetActive(false);
         }
-
     }
 }

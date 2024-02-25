@@ -6,13 +6,12 @@ using UnityEngine.UI;
 public class Health : MonoBehaviour
 {
 
-    [SerializeField] private float maxhealth;
+    [SerializeField] private float maxhealth; 
     [SerializeField] private float iframestime;
     [SerializeField] private float blinks;
     [SerializeField] private Transform spawn;
     private SpriteRenderer blinkingSprite;
     private Animator animation;
-
 
     public float currenthealth;
 
@@ -40,7 +39,6 @@ public class Health : MonoBehaviour
     public void takeHealthpack(float heals)
     {
         currenthealth = Mathf.Clamp(currenthealth + heals, 0, maxhealth);
-       
     }
     
     private IEnumerator Invincibility()
@@ -55,7 +53,7 @@ public class Health : MonoBehaviour
         }
         Physics2D.IgnoreLayerCollision(7, 8, false);
     }
-    public void Die()
+    public void Die() 
     {
         transform.position=spawn.position;
         takeHealthpack(maxhealth);
